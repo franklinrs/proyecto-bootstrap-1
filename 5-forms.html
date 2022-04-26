@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 - Forms</title>
+    <link rel="stylesheet" href="css/bootstrap-5.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <header>
+            <a href="index.html" class="mx-3"><i class="bi bi-arrow-left-circle-fill fs-1 text-dark"></i></a>
+            <div class="mb-3 text-center">
+                <h1 class="fw-bolder">5 - Forms</h1>
+                <h3>Franklin Josué Ramírez Soto</h3>
+            </div>
+        </header>
+    </header>
+    <main>
+        <div class="container my-5">
+            <div class="card border-primary">
+                <div class="card-header text-center py-3">
+                    <h5>Send us your info</h5>
+                </div>
+                <div class="card-body">
+                    <form action="#" class="row g-3">
+                        <div class="form-floating col-6">
+                            <input type="text" class="form-control" id="floatingInput">
+                            <label for="floatingInput" class="ps-4">First Name</label>
+                        </div>
+                        <div class="form-floating col-6">
+                            <input type="text" class="form-control" id="floatingInput">
+                            <label for="floatingInput" class="ps-4">Last Name</label>
+                        </div>
+                        <div class="form-floating col-8">
+                            <input type="email" class="form-control" id="floatingInput">
+                            <label for="floatingInput" class="ps-4">Email address</label>
+                        </div>
+                        <div class="form-floating col-4">
+                            <input type="number" class="form-control" id="floatingInput">
+                            <label for="floatingInput" class="ps-4">Age</label>
+                        </div>
+                        <div class="form-floating col-6">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option selected>---</option>
+                                <option value="1">Costa Rica</option>
+                                <option value="2">Guatemala</option>
+                                <option value="3">Mexico</option>
+                            </select>
+                            <label for="floatingSelect" class="ms-3">Country</label>
+                        </div>
+                        <div class="col-6">
+                            <label for="gender" class="form-label d-block">Gender</label>
+                            <div class="d-inline-flex">
+                                <div class="form-check ms-3">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Male
+                                    </label>
+                                </div>
+                                <div class="form-check ms-3">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Female
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2" class="ms-3">Comments</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  I agree to be contacted
+                                </label>
+                            </div>
+                            <button class="btn btn-primary mb-3" type="submit">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <a href="index.html" class="mx-3"><i class="bi bi-arrow-left-circle-fill fs-1 text-dark"></i></a>
+    </footer>
+</body>
+
+</html>
